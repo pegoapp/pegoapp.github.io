@@ -1,6 +1,6 @@
 ﻿{
-	"name": "RunIntoDeath",
-	"short_name": "RunIntoDeath",
+	"name": "ZombieArena",
+	"short_name": "ZombieArena",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",

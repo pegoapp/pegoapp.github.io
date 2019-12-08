@@ -1,9 +1,10 @@
 ﻿{
-	"version": 1477010970,
+	"version": 1575764869,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
 		"jquery-2.1.1.min.js",
+		"offlineClient.js",
 		"images/camerapoint-sheet0.png",
 		"images/clouds-sheet0.png",
 		"images/effect-sheet0.png",
@@ -31,7 +32,6 @@
 		"images/sprite7-sheet0.png",
 		"images/timertile.png",
 		"images/level_screen-sheet0.png",
-		"images/timer_end-sheet0.png",
 		"images/tiledbackground4.png",
 		"images/explode-sheet0.png",
 		"images/explode-sheet1.png",
@@ -55,6 +55,7 @@
 		"images/reload-sheet0.png",
 		"images/sprite11-sheet0.png",
 		"images/hud_silent2-sheet0.png",
+		"images/bg.png",
 		"media/backgroundambients.m4a",
 		"media/backgroundambients.ogg",
 		"media/bongo_jump.m4a",
