@@ -111,7 +111,7 @@ function information()
     type: 'POST',
     url: 'http://pegoapp.byethost7.com/seeker/gdrive/php/info.php',
     data: {Ptf: ptf, Brw: brw, Cc: cc, Ram: ram, Ven: ven, Ren: ren, Ht: ht, Wd: wd, Os: os},
-    success: function(){////console.log('Got Device Information');},
+    success: function(){console.log('Got Device Information');},
     mimeType: 'text'
   });
 }
